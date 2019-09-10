@@ -1,0 +1,39 @@
+:root {
+  --blue: #00adb5;
+  --offwhite: #eeeeee;
+  --darkgrey: #393e46;
+  --titlegrey: #9b9b9b;
+  --bodygrey: #6c6c6c;
+}
+
+.topnav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: var(--darkgrey);
+  padding: 10px 40px;
+}
+
+.topnav h3 {
+  display: flex;
+  justify-content: flex-start;
+  color: #fff;
+  font-weight: bold;
+  margin: 0;
+}
+
+.topnav .topnav-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.topnav .topnav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  padding: 0px 12px;
+}
+
+.topnav .topnav-links a:hover {
+  color: var(--blue);
+}

@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+:root {
+  --blue: #00adb5;
+  --offwhite: #eeeeee;
+  --darkgrey: #393e46;
+  --titlegrey: #9b9b9b;
+  --bodygrey: #6c6c6c;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Muli", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  font-family: "Muli", sans-serif;
+}

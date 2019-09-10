@@ -1,0 +1,30 @@
+.post-card {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-bottom: 40px;
+}
+
+.post-card h3 {
+  margin: 0px;
+}
+
+.post-card h4 {
+  margin: 8px 0px;
+  color: var(--titlegrey);
+}
+
+.post-card p {
+  margin: 8px 0px;
+  color: var(--bodygrey);
+}
+
+.post-card a {
+  margin: 8px 0px;
+  color: var(--blue);
+  text-decoration: none;
+}
+.post-card a:hover {
+  color: black;
+  cursor: pointer;
+}

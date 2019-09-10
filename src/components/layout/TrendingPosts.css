@@ -1,0 +1,32 @@
+.trending-card a {
+  text-decoration: none;
+  font-size: 14px;
+  color: var(--blue);
+}
+
+.trending-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.trending-card h4 {
+  font-weight: bold;
+  margin: 0px 0px 8px 0px;
+}
+
+.trending-card h5 {
+  color: var(--titlegrey);
+  margin: 0;
+  padding: 0;
+}
+
+.trending-card p {
+  color: var(--bodygrey);
+  margin-right: 8px;
+}
+
+.trending-card a:hover {
+  color: black;
+  cursor: pointer;
+}
